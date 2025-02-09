@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#D1C4E9</color> <!-- Lilac Purple (for Toolbar & Button) -->
+    <color name="accentColor">#D1C4E9</color>  <!-- Matching Button Color with Toolbar -->
+    <color name="backgroundColor">#F3E5F5</color> <!-- Soft Purple Background -->
+    <color name="hintTextColor">#B0BEC5</color> <!-- Hint Text Color (Grayish) -->
+    <color name="textColor">#000000</color> <!-- Black for Better Contrast -->
+    <color name="habib_purple">#800080</color>  <!-- HABIB Purple -->
+
+</resources>

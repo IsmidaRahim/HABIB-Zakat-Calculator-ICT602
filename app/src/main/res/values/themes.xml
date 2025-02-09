@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base App Theme -->
+    <style name="Theme.HabibZakatC" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#D1C4E9</item>            <!-- Lilac Purple -->
+        <item name="colorPrimaryDark">#B39DDB</item>        <!-- Darker Purple -->
+        <item name="colorAccent">#9575CD</item>            <!-- Accent Color -->
+        <item name="actionOverflowMenuStyle">@style/PopupMenuStyle</item> <!-- Popup Menu Style -->
+    </style>
+
+    <!-- Popup Menu (3-dot icon) Theme -->
+    <style name="PopupMenuStyle" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">#D1C4E9</item> <!-- Lilac Purple Background -->
+        <item name="android:textColor">#000000</item>       <!-- Black Text for Menu Items -->
+        <item name="android:popupElevation">8dp</item>      <!-- Add Shadow for Popup Menu -->
+    </style>
+
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3E5F5"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to Use HABIB Zakat Calculator"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#4A148C"
+            android:gravity="center"
+            android:paddingBottom="20dp" />
+
+        <!-- Instruction 1: Enter Weight -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@android:drawable/ic_menu_edit"
+                android:contentDescription="Weight Icon"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Enter the weight of gold in grams."
+                android:textSize="16sp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <!-- Instruction 2: Select Type -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@android:drawable/ic_menu_sort_by_size"
+                android:contentDescription="Type Icon"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Select the type of gold either (Keep or Wear)."
+                android:textSize="16sp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <!-- Instruction 3: Enter Gold Price -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@android:drawable/ic_menu_info_details"
+                android:contentDescription="Price Icon"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Enter the current gold of price (RM per gram)."
+                android:textSize="16sp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <!-- Instruction 4: Calculate Zakat -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@android:drawable/ic_menu_send"
+                android:contentDescription="Calculate Icon"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tap 'CALCULATE' to view the total amount for Zakat Payable."
+                android:textSize="16sp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

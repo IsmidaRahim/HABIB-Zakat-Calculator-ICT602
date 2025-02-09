@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#F3E5F5"> <!-- Optional: soft background color for better UI -->
+
+    <!-- Passport Photo -->
+    <ImageView
+        android:id="@+id/myPhoto"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ismida_about"
+        android:contentDescription="Passport Photo"
+        android:scaleType="centerCrop"
+        android:background="#D1C4E9"
+        android:padding="4dp" /> <!-- Optional: adds border-like padding -->
+
+    <!-- Student Details -->
+    <TextView
+        android:id="@+id/studDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Name: Ismida Rahim\nMatric Number: 2023248282\nCourse: CDCS240\nClass: 5B\nGitHub: github.com/ismidarahim"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp" /> <!-- Better spacing between lines -->
+
+</LinearLayout>
